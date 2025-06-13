@@ -1,0 +1,122 @@
+.menuMoreVertical {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.ilustracionSinTitulo81 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.enEl {
+  font-family: var(--font-playfair-display);
+}
+.enElCoraznDeColombiaExi {
+  margin: 0;
+}
+.enElCoraznContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.calleFlora2025 {
+  position: relative;
+}
+.calleFlora2025Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 43px;
+  text-align: center;
+  font-size: var(--font-size-15);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}
+.enElCoraznDeColombiaExiParent,
+.landingPageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.enElCoraznDeColombiaExiParent {
+  width: 618px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.landingPageInner {
+  width: 866px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 101px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-24);
+  color: var(--color-gray-100);
+  font-family: var(--font-playfair-display);
+}
+.frameChild {
+  height: 68px;
+  width: 100%;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.landingPage,
+.landingPageChild {
+  display: flex;
+  align-items: flex-start;
+}
+.landingPageChild {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 68px;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-26) var(--padding-20) 90px;
+  box-sizing: border-box;
+  gap: 95px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 825px) {
+  .landingPage {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .enElCoraznContainer {
+    font-size: var(--font-size-19);
+  }
+  .landingPageInner {
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+  .landingPage {
+    gap: 24px;
+  }
+}

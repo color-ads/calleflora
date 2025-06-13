@@ -1,0 +1,81 @@
+.menuMoreVertical {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.calleFlora {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  z-index: 1;
+  font-family: inherit;
+}
+.calleFloraWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3) 0 0;
+}
+.menuMoreVerticalParent {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-30);
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.calleFlora1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  z-index: 1;
+  font-family: inherit;
+}
+.calleFloraContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12);
+}
+.frameWrapper {
+  width: 1208px;
+  flex-direction: row;
+  padding: 0 13px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 170px;
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 825px) {
+  .calleFlora1 {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .calleFlora1 {
+    font-size: 42px;
+  }
+}

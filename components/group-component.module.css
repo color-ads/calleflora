@@ -1,0 +1,181 @@
+.menuMoreVertical {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.menu {
+  width: 92.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7px 0 0;
+  box-sizing: border-box;
+}
+.background,
+.menuMoreVertical1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(14.2px);
+  background-color: var(--color-gray-200);
+}
+.menuMoreVertical1 {
+  height: 45px;
+  width: 45.5px;
+  top: calc(50% - 22.5px);
+  left: 39.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.checkIn,
+.jun2025 {
+  position: relative;
+  z-index: 1;
+}
+.checkIn {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 98.1px;
+}
+.jun2025 {
+  font-size: var(--font-size-16);
+}
+.checkInParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkInParent {
+  gap: var(--gap-6);
+}
+.frameWrapper {
+  padding: 9px 7px 0 0;
+}
+.frameChild {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineWrapper {
+  align-self: stretch;
+  width: 61.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.huespedes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.huespedesParent {
+  align-self: stretch;
+  gap: var(--gap-6);
+}
+.frameContainer,
+.huespedesParent,
+.lineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 157.8px;
+  padding: 9px 0 0;
+  box-sizing: border-box;
+}
+.lineContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-22) 0 0;
+}
+.cdigoPromo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.cdigoPromoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px var(--padding-20) 0 0;
+}
+.reser {
+  font-family: var(--font-playfair-display);
+}
+.reservar {
+  position: relative;
+  font-size: var(--font-size-30);
+  color: var(--color-black);
+  text-align: left;
+}
+.reserveButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3) 35px;
+  background-color: var(--color-white);
+  height: 50px;
+  border-radius: var(--br-10) var(--br-10) var(--br-30) var(--br-10);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.reserveButton:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.menuParent,
+.reserveButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10) 0 0;
+}
+.menuParent {
+  margin-right: -45px;
+  width: 1295px;
+  height: 109px;
+  flex-direction: row;
+  padding: var(--padding-19) 27px var(--padding-20);
+  box-sizing: border-box;
+  position: sticky;
+  gap: 23.3px;
+  top: 0;
+  z-index: 99;
+  max-width: 108%;
+  text-align: left;
+  font-size: var(--font-size-20);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}

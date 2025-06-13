@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-black: #000;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-100: #e6e6e6;
+  --color-white: #fff;
+  --color-gray-300: rgba(255, 255, 255, 0.8);
+  --color-gray-200: rgba(24, 24, 24, 0.5);
+  --color-gray-100: #181818;
+
+  /* Gap */
+  --gap-6: 6px;
+  --gap-10: 10px;
+  --gap-12: 12px;
+  --gap-18: 18px;
+  --gap-20: 20px;
+
+  /* Padding */
+  --padding-3: 3px;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-18: 18px;
+  --padding-19: 19px;
+  --padding-20: 20px;
+  --padding-22: 22px;
+  --padding-26: 26px;
+
+  /* BorderRadius */
+  --br-10: 10px;
+  --br-30: 30px;
+
+  /* Font */
+  --font-quicksand: Quicksand;
+  --font-playfair-display: Playfair Display;
+
+  /* FontSize */
+  --font-size-15: 15px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-19: 19px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-30: 30px;
+}

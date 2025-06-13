@@ -1,0 +1,89 @@
+.bannerChild {
+  align-self: stretch;
+  height: 832px;
+  position: relative;
+  display: none;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 71px;
+  max-width: 100%;
+}
+.diarioDeLecumberri {
+  width: 255px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.diarioDeLecumberriLvaroMWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 476px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.banner,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 30px 0 0;
+  gap: 9px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-15);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}
+.banner {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-26) 7px 0;
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .diarioDeLecumberriLvaroMWrapper {
+    padding-left: 238px;
+    padding-right: 238px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameGroup {
+    gap: 35px;
+  }
+  .diarioDeLecumberriLvaroMWrapper {
+    padding-left: 119px;
+    padding-right: 119px;
+    box-sizing: border-box;
+  }
+  .banner {
+    gap: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    gap: var(--gap-18);
+  }
+  .diarioDeLecumberriLvaroMWrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,210 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameChild {
+  height: 63px;
+  width: 63px;
+  top: -7px;
+  left: 615px;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(14.2px);
+  background-color: var(--color-gray-200);
+}
+.menuMoreVertical {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 34px 0 0;
+}
+.checkIn,
+.jun2025 {
+  position: relative;
+  z-index: 1;
+}
+.checkIn {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 98.1px;
+}
+.jun2025 {
+  font-size: var(--font-size-16);
+}
+.inputFields,
+.inputLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputLabels {
+  gap: var(--gap-6);
+}
+.inputFields {
+  padding: 9px 7px 0 0;
+}
+.inputFieldsChild {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.inputFields1 {
+  align-self: stretch;
+  width: 61.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.huespedes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.huespedesParent {
+  align-self: stretch;
+  gap: var(--gap-6);
+}
+.huespedesParent,
+.inputFields2,
+.inputFields3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFields2 {
+  width: 157.8px;
+  padding: 9px 0 0;
+  box-sizing: border-box;
+}
+.inputFields3 {
+  align-self: stretch;
+  padding: 0 var(--padding-22) 0 0;
+}
+.cdigoPromo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.cdigoPromoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 25px var(--padding-20) 0 0;
+}
+.reser {
+  font-family: var(--font-playfair-display);
+}
+.reservar {
+  position: relative;
+  font-size: var(--font-size-30);
+  color: var(--color-black);
+  text-align: left;
+}
+.buttonContent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3) 35px;
+  background-color: var(--color-white);
+  height: 50px;
+  border-radius: var(--br-10) var(--br-10) var(--br-30) var(--br-10);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.buttonContent:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.buttonContentWrapper,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonContentWrapper {
+  flex-direction: column;
+  padding: var(--padding-10) 0 0;
+}
+.frameParent,
+.rectangleParent {
+  flex-direction: row;
+  position: relative;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  backdrop-filter: blur(14.2px);
+  background-color: var(--color-gray-200);
+  padding: var(--padding-19) 39px var(--padding-20);
+  box-sizing: border-box;
+  gap: 23.3px;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameParent {
+  margin-left: -14px;
+  width: 1295px;
+  height: 109px;
+  max-width: 103%;
+  text-align: left;
+  font-size: var(--font-size-20);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}
+@media screen and (max-width: 1050px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .reservar {
+    font-size: var(--font-size-24);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cdigoPromo,
+  .checkIn,
+  .huespedes {
+    font-size: var(--font-size-16);
+  }
+  .reservar {
+    font-size: var(--font-size-18);
+  }
+}

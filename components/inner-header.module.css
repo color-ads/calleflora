@@ -1,0 +1,88 @@
+.inicio,
+.roofTop {
+  font-size: inherit;
+  font-family: inherit;
+}
+.roofTop {
+  margin: 0 !important;
+  width: 1174px;
+  position: absolute;
+  top: -84px;
+  left: -961px;
+  line-height: 149px;
+  display: inline-block;
+  z-index: 2;
+}
+.inicio {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+}
+.navigationLinks {
+  cursor: pointer;
+}
+.navigationLinks,
+.navigationLinks2,
+.navigationLinksParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigationLinksParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-10);
+  gap: var(--gap-10);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-24);
+  font-family: var(--font-quicksand);
+}
+.headerDividerIcon {
+  height: 16px;
+  width: 35px;
+  margin: 0 !important;
+  position: absolute;
+  top: 97px;
+  right: -25px;
+  border-radius: 68px;
+  z-index: 2;
+}
+.innerHeader,
+.roofTopParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.roofTopParent {
+  width: 238px;
+  justify-content: flex-start;
+  position: relative;
+}
+.innerHeader {
+  flex: 1;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: 170px;
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 750px) {
+  .roofTop {
+    font-size: 68px;
+    line-height: 89px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .roofTop {
+    font-size: 42px;
+    line-height: 60px;
+  }
+  .inicio {
+    font-size: var(--font-size-19);
+  }
+}
